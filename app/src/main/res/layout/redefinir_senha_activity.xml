@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+
+        android:text="LoginFireBaseEmail"
+        android:background="#D58E23"
+        android:textSize="30sp"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:text = "Resetar Senha"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#D58E23"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:hint="EMAIL:"
+        android:id="@+id/resetar_email"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="#D58E23"
+        android:text="Resetar Senha"
+        android:textColor="#1E222E"
+        android:id="@+id/resetar_btn_resetar"
+        />
+
+</LinearLayout>

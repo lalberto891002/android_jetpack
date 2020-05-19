@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "550532026081",
+    "firebase_url": "https://estudiando-1.firebaseio.com",
+    "project_id": "estudiando-1",
+    "storage_bucket": "estudiando-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550532026081:android:db40023c820580cc61b1a0",
+        "android_client_info": {
+          "package_name": "com.example.studyingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550532026081-0dn2mm34lu0blhl3rv6ijtaf9vsbokru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.studyingapp",
+            "certificate_hash": "c28eee19410f40414ec0bf4069b03ed6729edbca"
+          }
+        },
+        {
+          "client_id": "550532026081-f7i5d4d818vqdic94prcqsrmpjnn0g8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsuKj9WEFoNMzVG5bObDA1KE5f_KJftb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550532026081-f7i5d4d818vqdic94prcqsrmpjnn0g8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

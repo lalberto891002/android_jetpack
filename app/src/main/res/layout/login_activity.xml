@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:weightSum="100" >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="10"
+
+    android:text="LoginFireBaseEmail"
+    android:background="#D58E23"
+    android:textSize="30sp"
+    android:textColor="#ffffff"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="20"
+    android:text = "Login FireBase"
+    android:textSize="30sp"
+    android:gravity="center"
+    android:textColor="#D58E23"/>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="10"
+    android:hint="EMAIL:"
+    android:id="@+id/login_email"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="10"
+    android:hint="SENHA:"
+    android:id="@+id/login_senha"
+    />
+
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="10"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="10"
+    android:background="#D58E23"
+    android:text="Loguear"
+    android:textColor="#1E222E"
+    android:id="@+id/Login_btn_loguear"
+    />
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="10"
+    android:background="#D58E23"
+    android:text="Novo Usuario"
+    android:textColor="#1E222E"
+    android:id="@+id/Login_btn_newUser"
+    />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="10" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="10"
+    android:text="Nao lembro a senha"
+    android:gravity="center"
+    android:id="@+id/login_mudar_senha"/>
+</LinearLayout>

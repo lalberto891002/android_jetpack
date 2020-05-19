@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+
+        android:text="LoginFireBaseEmail"
+        android:background="#D58E23"
+        android:textSize="30sp"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:text = "Personas"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#D58E23"/>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="50">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listaPersonasReciclerView"
+        tools:listitem = "@layout/persona_item_layout"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_add_black_24dp"
+        android:layout_marginRight="10dp"
+        app:backgroundTint="#D58E23"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/lista_personas_btn_voltar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="#D58E23"
+        android:text="Voltar"
+        android:textColor="#1E222E" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.example.studyingapp">
+<uses-permission android:name="android.permission.INTERNET"/>
+<application
+    android:name=".MyAplication"
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <activity android:name=".Activities.initActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity android:name=".Activities.loginActivity"/>
+    <activity android:name=".Activities.cadastroActivity"/>
+    <activity android:name=".Activities.perfilActivity"/>
+    <activity android:name=".Activities.redefinirSenhaActivity"/>
+    <activity android:name=".Activities.personasActivity"/>
+    <activity android:name=".Activities.novaPersonaActivty"/>
+    <activity android:name=".Activities.detallesPersonaActivity"/>
+</application>
+
+</manifest>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="100">
+    <TextView
+        android:id="@+id/text_view_nombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#E65C30"
+        android:text="Nombre Persona"
+        android:layout_weight="50"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"/>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="40"/>
+
+    <TextView
+        android:id="@+id/text_view_edad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#E65C30"
+        android:layout_weight="10"
+        android:text="25"
+        android:textSize="20sp"/>
+
+</LinearLayout>
